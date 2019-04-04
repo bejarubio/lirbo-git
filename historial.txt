@@ -1,0 +1,88 @@
+    1  history
+    2  git clone https://github.com/AgustinPrf/libro-git.git
+    3  ls -la
+    4  mkdir 4abril
+    5  cd 4abril/
+    6  git clone https://github.com/AgustinPrf/libro-git.git
+    7  ls -la
+    8  cd libro-git
+    9  git reset --hard 48ed8
+   10  git remove origin
+   11  git remote remove origin
+   12  ls -la
+   13  nano indice.txt
+   14  git status
+   15  git checkout indice.txt
+   16  git status
+   17  nano indice.txt
+   18  git status
+   19  git add indice.txt
+   20  git status
+   21  git reset HEAD indice.txt
+   22  git status
+   23  git checkout indice.txt
+   24  git status
+   25  nano indice.txt
+   26  cd capitulos
+   27  rm capitulo3.txt
+   28  ls -la
+   29  touch capitulo4.txt
+   30  git status
+   31  git add .
+   32  git status
+   33  git reset HEAD capitulo3.txt
+   34  git reset HEAD capitulo4.txt
+   35  git status
+   36  git checkout indice.txt
+   37  cd ..
+   38  git checkout indice.txt
+   39  nano indice.txt
+   40  cd .. 
+   41  rm capitulo3.txt
+   42  git checkout capitulo3.txt
+   43  git add capitulo3.txt
+   44  ls -la
+   45  cd libro-git
+   46  cd capitulos
+   47  git add capitulo3.txt
+   48  ls -la
+   49  git checkout capitulo3.txt
+   50  cd ..
+   51  mkdir ramas
+   52  cd ramas
+   53  git clone https://github.com/AgustinPrf/libro-git.git
+   54  cd libro-git
+   55  git reset --hard 48ed8
+   56  git remote remove origin
+   57  git  branch
+   58  git branch
+   59  git chechout
+   60  git checkout
+   61  git branch
+   62  git branch -u
+   63  git branch -a
+   64  git branch -u
+   65  git branch -f
+   66  git branch --track
+   67  git branch --help
+   68  git branch --list
+   69  git branch -umaster
+   70  git branch iss53
+   71  git branch --list
+   72  git checkout -b beja
+   73  git branch --list
+   74  git checkout master
+   75  git log
+   76  git branch -v
+   77  git log --graph -all --oneline
+   78  git log --graph --all --oneline
+   79  git checkout -a
+   80  git branch -a
+   81  git branch --help
+   82  git checkout beja
+   83  git merge iss53
+   84  git branch -a
+   85  git log
+   86  history
+   87  touch historial.txt
+   88  history >> historial.txt
